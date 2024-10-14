@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midterm Responsive Site</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home" data-view="home">Home</a></li>
+        <li><a href="#about" data-view="about">About</a></li>
+        <li><a href="#services" data-view="services">Services</a></li>
+        <li><a href="#contacts" data-view="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="app">
+      <div class="home"></div>
+    </div>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+    <script type="module" src="model/model.js"></script>
+  </body>
+</html>
